@@ -1,3 +1,6 @@
+import jacket from '../assets/jacket.webp'
+import team1 from '../assets/me.jpeg'
+
 const About = () => {
   return (
     <div id="main-content">
@@ -17,7 +20,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-md-6">
             <img
-              src="assets/about-us.webp"
+              src={jacket}
               alt="About Us"
               className="img-fluid rounded shadow"
             />
@@ -45,32 +48,32 @@ const About = () => {
         <div className="row text-center">
           <div className="col-md-4">
             <img
-              src="assets/team1.webp"
+              src={team1}
               alt="Team Member"
               className="rounded-circle mb-3"
               style={{ width: '150px', height: '150px', objectFit: 'cover' }}
             />
-            <h5 className="fw-bold">Alice Johnson</h5>
+            <h5 className="fw-bold">Emmanuel Alcime</h5>
             <p className="text-muted">CEO & Founder</p>
           </div>
           <div className="col-md-4">
             <img
-              src="assets/team2.webp"
+              src={team1}
               alt="Team Member"
               className="rounded-circle mb-3"
               style={{ width: '150px', height: '150px', objectFit: 'cover' }}
             />
-            <h5 className="fw-bold">Michael Smith</h5>
+            <h5 className="fw-bold">Emmanuel Alcime</h5>
             <p className="text-muted">Chief Marketing Officer</p>
           </div>
           <div className="col-md-4">
             <img
-              src="assets/team3.webp"
+              src={team1}
               alt="Team Member"
               className="rounded-circle mb-3"
               style={{ width: '150px', height: '150px', objectFit: 'cover' }}
             />
-            <h5 className="fw-bold">Emily Davis</h5>
+            <h5 className="fw-bold">Emmanuel Alcime</h5>
             <p className="text-muted">Lead Developer</p>
           </div>
         </div>
