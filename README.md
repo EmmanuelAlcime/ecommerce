@@ -24,7 +24,7 @@ This is a fully functional e-commerce website built with React.js, React Router,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-website.git
+   git clone git@github.com:EmmanuelAlcime/ecommerce.git
    ```
 
 2. Navigate to the project directory:
