@@ -1,6 +1,4 @@
 const Contact = () => {
-  const mapId = '887ad2106e5c6ce0'
-  const position = { lat: 43.63, lng: -79.41 }
   const key = 'AIzaSyAZYAz5gWYzVa7sKcNxi3Ll6Op-fXIACgk'
   return (
     <div id="main-content">

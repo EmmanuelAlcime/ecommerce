@@ -30,7 +30,7 @@ const About = () => {
             <p className="text-muted">
               We are a passionate team of professionals dedicated to delivering
               top-notch products and services to our customers. Our mission is
-              to create solutions that bring value to people's lives.
+              to create solutions that bring value to people&apos;s lives.
             </p>
             <p className="text-muted">
               With years of experience and a commitment to excellence, we have
