@@ -85,6 +85,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 For any inquiries or contributions, feel free to contact us at:
 
-- **Email:** support@yourcompany.com
-- **Website:** [yourcompany.com](https://www.yourcompany.com)
-- **Twitter:** [@yourcompany](https://twitter.com/yourcompany)
+- **Email:** emmanuelalcime54@gmail.com
+- **Website:** [goalnoire.com](https://www.goalnoire.com)
+- **Twitter:** [@goalnoire](https://twitter.com/goalnoire)
