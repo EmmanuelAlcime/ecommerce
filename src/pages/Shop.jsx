@@ -150,27 +150,27 @@ const Shop = () => {
                           className="card-img-top"
                           style={{ height: '200px', objectFit: 'contain' }}
                         />
-                        <div className="card-body text-center">
-                          <h5 className="card-title fw-bold">{product.name}</h5>
-                          <p className="card-text text-success fs-5 fw-bold">
-                            ${product.price.toFixed(2)}
-                          </p>
-                          <button
-                            className="btn btn-primary w-100"
-                            onClick={() =>
-                              addItem({
-                                id: product.id,
-                                name: product.name,
-                                price: product.price,
-                                image: product.image,
-                                quantity: 1,
-                              })
-                            }
-                          >
-                            Add to Cart
-                          </button>
-                        </div>
                       </Link>
+                      <div className="card-body text-center">
+                        <h5 className="card-title fw-bold">{product.name}</h5>
+                        <p className="card-text text-success fs-5 fw-bold">
+                          ${product.price.toFixed(2)}
+                        </p>
+                        <button
+                          className="btn btn-primary w-100"
+                          onClick={() =>
+                            addItem({
+                              id: product.id,
+                              name: product.name,
+                              price: product.price,
+                              image: product.image,
+                              quantity: 1,
+                            })
+                          }
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}
