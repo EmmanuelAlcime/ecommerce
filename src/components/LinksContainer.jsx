@@ -11,16 +11,7 @@ const LinksContainer = () => {
           Shop
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink className={getActiveLinkClass} to="/cart">
-          Cart
-        </NavLink>
-      </li>
-      <li className="nav-item p-2">
-        <NavLink className={getActiveLinkClass} to="/checkout">
-          Checkout
-        </NavLink>
-      </li>
+
       <li className="nav-item p-2">
         <NavLink className={getActiveLinkClass} to="/about">
           About
@@ -29,6 +20,12 @@ const LinksContainer = () => {
       <li className="nav-item p-2">
         <NavLink className={getActiveLinkClass} to="/contact">
           Contact
+        </NavLink>
+      </li>
+
+      <li className="nav-item p-2">
+        <NavLink className={getActiveLinkClass} to="/checkout">
+          Checkout
         </NavLink>
       </li>
     </ul>
