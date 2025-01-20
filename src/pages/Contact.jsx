@@ -1,5 +1,5 @@
 const Contact = () => {
-  const key = 'AIzaSyAZYAz5gWYzVa7sKcNxi3Ll6Op-fXIACgk'
+  const key = ''
   return (
     <div id="main-content">
       {/* Hero Section */}
